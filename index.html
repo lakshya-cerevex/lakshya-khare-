@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Lakshya Khare</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+    .main-content {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .main-content h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #495057;
+    }
+    .main-content p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #6c757d;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 30px;
+      text-align: center;
+      margin-top: 30px;
+      transition: all 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+      transform: translateY(-3px);
+    }
+    .form-container {
+      margin-top: 40px;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-container h3 {
+      font-size: 28px;
+      color: #495057;
+    }
+    label {
+      font-size: 16px;
+      color: #343a40;
+      margin-bottom: 5px;
+      display: block;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #f1f1f1;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      font-size: 18px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Future of Innovation</h1>
+    <p>I'm Lakshya Khare, an entrepreneur passionate about building businesses that thrive in the digital age.</p>
+  </header>
+
+  <div class="main-content">
+    <h2>About Me</h2>
+    <p>
+      I am not just a creator, I am a problem-solver and an innovator with a relentless drive to bring ideas to life. As the founder of multiple ventures, I focus on creating solutions that cater to the evolving needs of the modern world. My mission is to revolutionize industries and empower individuals and businesses to scale with cutting-edge digital solutions.
+    </p>
+    <p>
+      Whether it's a breakthrough app, a high-impact website, or a transformative business idea, my goal is to drive success by merging creativity with strategic thinking. I believe in the power of collaboration, and I’m always eager to work with like-minded individuals who share the same vision for growth and success.
+    </p>
+    <p>
+      Let’s work together to unlock the true potential of your ideas and bring them into reality!
+    </p>
+
+    <!-- Let’s Connect Button -->
+    <a href="#contact-section" class="cta-button">Let’s Connect</a>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div id="contact-section" class="main-content">
+    <h2>Let’s Get in Touch!</h2>
+    <div class="form-container">
+      <h3>Submit Your Information</h3>
+      <form action="https://formsubmit.co/lakshyakhare408@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://cerevex.github.io/thank-you.html">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" required>
+
+        <label for="place">Place</label>
+        <input type="text" id="place" name="Place" required>
+
+        <label for="skills">Your Skills</label>
+        <input type="text" id="skills" name="Skills">
+
+        <label for="gmail">Gmail</label>
+        <input type="email" id="gmail" name="Gmail" required>
+
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" name="Phone Number" required>
+
+        <label for="requirement">Requirement</label>
+        <textarea id="requirement" name="Requirement" rows="3" required></textarea>
+
+        <label for="time">How much time can you give?</label>
+        <select id="time" name="Time">
+          <option value="1 hour">1 Hour</option>
+          <option value="2-3 hours">2-3 Hours</option>
+          <option value="Full-time">Full-time</option>
+        </select>
+
+        <label for="description">Brief Description</label>
+        <textarea id="description" name="Description" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lakshya Khare. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
